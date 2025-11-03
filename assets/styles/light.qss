@@ -1,0 +1,72 @@
+/* Genel arka plan ve font */
+QWidget {
+    background-color: #f5f5f5;
+    color: #2b2b2b;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+/* Başlıklar */
+QLabel#LoginTitle,
+QLabel#DashboardTitle,
+QLabel#ProductTitle,
+QLabel#SalesTitle,
+QLabel#ReportsTitle,
+QLabel#SettingsTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2b2b2b;
+}
+
+/* Normal label */
+QLabel {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+/* Input alanları */
+QLineEdit, QComboBox, QSpinBox {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin: 4px 0;
+}
+
+/* Butonlar */
+QPushButton {
+    background-color: #0078d7;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005a9e;
+}
+
+QPushButton:pressed {
+    background-color: #004578;
+}
+
+/* Tablo */
+QTableWidget {
+    background-color: #ffffff;
+    gridline-color: #ddd;
+    color: #000000;
+    font-size: 13px;
+}
+
+QHeaderView::section {
+    background-color: #0078d7;
+    color: white;
+    padding: 6px;
+    border: none;
+    font-weight: bold;
+}
